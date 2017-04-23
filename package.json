@@ -1,0 +1,25 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"description": "Test",
+	"main": "index.js",
+	"scripts": {
+		"prestart": "npm i --no-optional",
+		"start": "pm2 start process.json --only test",
+		"ls": "pm2 ls",
+		"show": "pm2 show test",
+		"restart": "pm2 restart test",
+		"stop": "pm2 stop test",
+		"delete": "pm2 delete test",
+		"kill": "pm2 kill"
+	},
+	"keywords": [
+		"java",
+		"pm2"
+	],
+	"author": "Marco Antonio Cruz",
+	"license": "MIT",
+	"devDependencies": {
+		"pm2": "*"
+	}
+}

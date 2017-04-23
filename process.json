@@ -1,0 +1,21 @@
+{
+	"apps": {
+		"name": "test",
+		"cwd": ".",
+		"args": [
+			"-jar",
+			"test.jar"
+		],
+		"watch": [
+			"test.jar"
+		],
+		"env": {
+			"PORT": "8080"
+		},
+		"script": "/usr/bin/java",
+		"node_args": [],
+		"log_date_format": "YYYY-MM-DD HH:mm Z",
+		"exec_interpreter": "",
+		"exec_mode": "fork"
+	}
+}
